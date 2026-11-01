@@ -34,8 +34,7 @@ window.RESTAURANT = {
   phones: [
     { label: "04 26 66 322",  tel: "+97142666322" },
     { label: "054 320 5664",  tel: "+971543205664", whatsapp: true },
-    { label: "050 762 6297",  tel: "+971507626297" },
-    { label: "050 4545 302",  tel: "+971504545302" }
+    { label: "050 762 6297",  tel: "+971507626297" }
   ],
   address: "Al Mamzar Beach, Al Khaleej Street, Beside the Union Society, Dubai",
   addressAr: "دبي، شاطئ الممزر، شارع الخليج، خلف جمعية الاتحاد",

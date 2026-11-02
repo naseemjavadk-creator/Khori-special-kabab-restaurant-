@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Young+Serif&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
 
@@ -49,10 +49,10 @@
     <nav class="nav" aria-label="Main">
       <a href="#home" data-nav="home">Home</a>
       <a href="#menu" data-nav="menu">Menu</a>
-      <a href="#cart" data-nav="cart">Cart <span class="badge" data-cart-count>0</span></a>
+      <a href="#cart" data-nav="cart">Make your order <span class="badge" data-cart-count>0</span></a>
       <a href="#contact" data-nav="contact">Contact</a>
     </nav>
-    <a class="cart-btn" href="#cart" aria-label="Open cart">
+    <a class="cart-btn" href="#cart" aria-label="Make your order">
       <svg class="ic"><use href="#i-cart"/></svg><span class="badge" data-cart-count>0</span>
     </a>
   </div>
@@ -122,7 +122,7 @@
 <section class="view" id="view-menu" data-view="menu" hidden>
   <div class="wrap page-head">
     <h1>Our menu</h1>
-    <p>Tap a dish to add it to your cart. Prices in <span data-cfg="currency">AED</span>.</p>
+    <p>Tap a dish to add it to your order. Prices in <span data-cfg="currency">AED</span>.</p>
   </div>
   <div class="menu-toolbar">
     <div class="wrap toolbar-inner">
@@ -140,13 +140,13 @@
 <!-- ============================== CART ============================== -->
 <section class="view" id="view-cart" data-view="cart" hidden>
   <div class="wrap page-head">
-    <h1>Your cart</h1>
+    <h1>Make your order</h1>
   </div>
 
   <div class="wrap">
     <div class="empty" id="cart-empty" hidden>
       <svg class="ic ic-xl"><use href="#i-cart"/></svg>
-      <h2>Your cart is empty</h2>
+      <h2>Your order is empty</h2>
       <p>Pick a few dishes from the menu and they will show up here.</p>
       <a class="btn btn-primary" href="#menu">Browse the menu</a>
     </div>
@@ -156,7 +156,7 @@
         <ul class="cart-lines" id="cart-lines"></ul>
         <div class="cart-actions">
           <a class="btn btn-ghost" href="#menu">Continue shopping</a>
-          <button class="btn btn-quiet" type="button" id="clear-cart">Empty cart</button>
+          <button class="btn btn-quiet" type="button" id="clear-cart">Empty order</button>
         </div>
 
         <!-- Customer details (shown after Place Order) -->
@@ -214,7 +214,7 @@
             <button class="btn btn-ghost" type="button" id="copy-msg"><svg class="ic"><use href="#i-copy"/></svg> Copy message</button>
           </div>
           <p class="muted">Already sent it? Start fresh for your next order.</p>
-          <button class="btn btn-quiet" type="button" id="new-order">I sent it, clear my cart</button>
+          <button class="btn btn-quiet" type="button" id="new-order">I sent it, clear my order</button>
         </section>
       </div>
 
@@ -313,14 +313,14 @@
 <a class="cart-bar" id="cart-bar" href="#cart" hidden>
   <span><svg class="ic"><use href="#i-cart"/></svg> <b id="bar-count">0</b> items</span>
   <span class="bar-total" id="bar-total"></span>
-  <span class="bar-go">View cart</span>
+  <span class="bar-go">Make your order</span>
 </a>
 
 <!-- Mobile bottom navigation -->
 <nav class="tabbar" aria-label="Main (mobile)">
   <a href="#home" data-nav="home"><svg class="ic"><use href="#i-home"/></svg><span>Home</span></a>
   <a href="#menu" data-nav="menu"><svg class="ic"><use href="#i-menu"/></svg><span>Menu</span></a>
-  <a href="#cart" data-nav="cart"><svg class="ic"><use href="#i-cart"/></svg><span>Cart</span><span class="badge" data-cart-count>0</span></a>
+  <a href="#cart" data-nav="cart"><svg class="ic"><use href="#i-cart"/></svg><span>Make your order</span><span class="badge" data-cart-count>0</span></a>
   <a href="#contact" data-nav="contact"><svg class="ic"><use href="#i-phone"/></svg><span>Contact</span></a>
 </nav>
 
@@ -332,7 +332,7 @@
     <img id="lb-img" alt="">
     <figcaption>
       <div class="lb-text"><h2 id="lb-title"></h2><p class="lb-ar" id="lb-ar" lang="ar" dir="rtl"></p><p class="lb-desc" id="lb-desc"></p></div>
-      <div class="lb-buy"><span class="price"><span id="lb-price"></span><small id="lb-cur"></small></span><button class="add-btn" id="lb-add" type="button"><span>Add to cart</span></button></div>
+      <div class="lb-buy"><span class="price"><span id="lb-price"></span><small id="lb-cur"></small></span><button class="add-btn" id="lb-add" type="button"><span>Make Order</span></button></div>
     </figcaption>
   </figure>
 </div>
@@ -341,6 +341,6 @@
 
 <script src="js/config.js?v=2"></script>
 <script src="js/menu-data.js?v=2"></script>
-<script src="js/app.js?v=2"></script>
+<script src="js/app.js?v=3"></script>
 </body>
 </html>

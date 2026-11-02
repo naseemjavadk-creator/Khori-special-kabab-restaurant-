@@ -99,7 +99,7 @@
       (hasV ? '<div class="variants" role="radiogroup" aria-label="Choose an option for ' + esc(it.name) + '">' +
         it.variants.map((x, i) => '<button type="button" role="radio" aria-checked="' + (i === 0) + '" data-v="' + i + '">' + esc(x.label) + '</button>').join('') + '</div>' : '') +
       '<div class="card-foot"><span class="price"><span class="pv">' + num(p) + '</span><small>' + esc(R.currency) + '</small></span>' +
-      '<button class="add-btn" type="button">' + ico('plus') + '<span>Add to cart</span></button></div>' +
+      '<button class="add-btn" type="button">' + ico('plus') + '<span>Make Order</span></button></div>' +
       '<p class="in-cart" aria-live="polite"></p>' +
       '</div></article>';
   }
@@ -107,7 +107,7 @@
   function updateCardChips() {
     $$('.card[data-id]').forEach((card) => {
       const q = cart.filter((l) => l.id === card.dataset.id).reduce((s, l) => s + l.q, 0);
-      $('.in-cart', card).textContent = q ? q + ' in your cart' : '';
+      $('.in-cart', card).textContent = q ? q + ' in your order' : '';
     });
   }
 
@@ -294,7 +294,7 @@
   }
 
   function openCheckout() {
-    if (!cart.length) { toast('Your cart is empty'); return; }
+    if (!cart.length) { toast('Your order is empty'); return; }
     if (Number(R.minOrder) > subtotal()) {
       $('#e-min').textContent = 'The minimum order is ' + money(R.minOrder) + '. Add ' + money(R.minOrder - subtotal()) + ' more to continue.';
       return;
@@ -311,7 +311,7 @@
   function submitOrder(e) {
     e.preventDefault();
     const err = $('#form-error');
-    if (!cart.length) { err.textContent = 'Your cart is empty. Add dishes from the menu first.'; err.hidden = false; return; }
+    if (!cart.length) { err.textContent = 'Your order is empty. Add dishes from the menu first.'; err.hidden = false; return; }
     const r = validateOrderForm();
     if (!r.ok) {
       err.textContent = 'Please fix the highlighted fields and try again.';
@@ -486,8 +486,8 @@
     addToCart(lb.id, lb.v);
     const span = $('#lb-add span');
     span.textContent = 'Added';
-    setTimeout(() => { span.textContent = 'Add to cart'; }, 1100);
-    toast(it.name + ' added to your cart');
+    setTimeout(() => { span.textContent = 'Make Order'; }, 1100);
+    toast(it.name + ' added to your order');
   });
   document.addEventListener('keydown', (e) => {
     if (!lb.el.hidden) {
@@ -526,8 +526,8 @@
       addToCart(it.id, +card.dataset.v || 0);
       const label = $('span', add);
       add.classList.add('added'); label.textContent = 'Added';
-      setTimeout(() => { add.classList.remove('added'); label.textContent = 'Add to cart'; }, 1100);
-      toast(it.name + ' added to your cart');
+      setTimeout(() => { add.classList.remove('added'); label.textContent = 'Make Order'; }, 1100);
+      toast(it.name + ' added to your order');
       return;
     }
     const chip = t.closest('.chip');
@@ -554,7 +554,7 @@
 
   $('#place-order').addEventListener('click', openCheckout);
   $('#clear-cart').addEventListener('click', () => {
-    if (window.confirm('Remove all items from your cart?')) { cart = []; afterCartChange(); toast('Cart emptied'); }
+    if (window.confirm('Remove all items from your order?')) { cart = []; afterCartChange(); toast('Order emptied'); }
   });
   form.addEventListener('submit', submitOrder);
   form.addEventListener('input', (e) => {

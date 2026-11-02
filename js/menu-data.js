@@ -175,8 +175,8 @@
       desc: "Traditional Persian flatbread baked fresh in the oven." },
 
     /* --------------------------- STARTERS & DIPS --------------------------- */
-    { id: "moutabal", cat: "starters", name: "Moutabal", ar: "متبل", price: 15, img: I("moutabal"), desc: "Smoked eggplant and tahini dip with olive oil." },
-    { id: "hummus", cat: "starters", name: "Hummus", ar: "حمص", price: 10, img: I("hummus"), desc: "Creamy chickpea and tahini dip with olive oil." },
+    { id: "moutabal", cat: "starters", name: "Moutabal", ar: "متبل", price: 18, img: I("moutabal"), desc: "Smoked eggplant and tahini dip with olive oil." },
+    { id: "hummus", cat: "starters", name: "Hummus", ar: "حمص", price: 13, img: I("hummus"), desc: "Creamy chickpea and tahini dip with olive oil." },
     { id: "labneh", cat: "starters", name: "Labneh", ar: "لبنة", price: 10, img: I("labneh"), desc: "Strained yogurt with olive oil and mint." },
     { id: "spinach-yogurt", cat: "starters", name: "Spinach Yogurt", ar: "زبادي السبانخ", price: 15, img: I("spinach-yogurt"), desc: "Yogurt with cooked spinach (borani)." },
     { id: "mast-moosir", cat: "starters", name: "Mast Moosir", ar: "ماست موسير", price: 5, img: I("mast-moosir"), desc: "Yogurt with wild shallot and herbs." },

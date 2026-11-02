@@ -10,8 +10,8 @@ window.RESTAURANT = {
 
   /* ---- WhatsApp ordering ----
      Country code + number, digits only (no +, spaces or dashes).
-     +971 58 883 5200  ->  "971588835200"                                  */
-  whatsappNumber: "971588835200",
+     +971 54 320 5664  ->  "971543205664"                                  */
+  whatsappNumber: "971543205664",
 
   /* ---- Currency ---- */
   currency: "AED",

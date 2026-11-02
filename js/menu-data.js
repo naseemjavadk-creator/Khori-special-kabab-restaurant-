@@ -171,7 +171,7 @@
     /* ------------------------------ BAKERY ------------------------------
        The PDF menu has no bakery prices. This is a SAMPLE item: edit the
        price, or delete it, then add your own bakery items.                */
-    { id: "sangak-bread", cat: "bakery", name: "Sangak Bread", ar: "خبز سنگك", price: 5, img: I("hero-bakers"), tag: "Sample price",
+    { id: "sangak-bread", cat: "bakery", name: "Sangak Bread", ar: "خبز سنگك", price: 7, img: I("hero-bakers"),
       desc: "Traditional Persian flatbread baked fresh in the oven." },
 
     /* --------------------------- STARTERS & DIPS --------------------------- */

@@ -173,6 +173,8 @@
        price, or delete it, then add your own bakery items.                */
     { id: "sangak-bread", cat: "bakery", name: "Sangak Bread", ar: "خبز سنگك", price: 7, img: I("hero-bakers"),
       desc: "Traditional Persian flatbread baked fresh in the oven." },
+    { id: "sangak-bread-special", cat: "bakery", name: "Sangak Bread Special", ar: "خبز سنگك سبيشل", price: 10, img: I("hero-bakers"),
+      desc: "Traditional Persian flatbread baked fresh in the oven." },
 
     /* --------------------------- STARTERS & DIPS --------------------------- */
     { id: "moutabal", cat: "starters", name: "Moutabal", ar: "متبل", price: 18, img: I("moutabal"), desc: "Smoked eggplant and tahini dip with olive oil." },

@@ -217,7 +217,7 @@
     { id: "faloode", cat: "drinks", name: "Faloode", ar: "فالودة", price: 15, img: I("faloode"), desc: "Persian frozen dessert with vermicelli, syrup and ice." },
     { id: "juice-cocktail", cat: "drinks", name: "Cocktail Juice", ar: "كوكتيل", price: 15, img: I("juice-cocktail"), desc: "Mixed fresh fruit juice." },
     { id: "juice-banana", cat: "drinks", name: "Banana Juice", ar: "موز", price: 15, img: I("juice-banana"), desc: "Fresh banana juice." },
-    { id: "juice-avocado", cat: "drinks", name: "Avocado Juice", ar: "أفوكادو", price: 15, img: I("juice-avocado"), desc: "Fresh avocado juice." },
+    { id: "juice-avocado", cat: "drinks", name: "Avocado Juice", ar: "أفوكادو", price: 20, img: I("juice-avocado"), desc: "Fresh avocado juice." },
     { id: "juice-watermelon", cat: "drinks", name: "Watermelon Juice", ar: "بطيخ", price: 15, img: I("juice-watermelon"), desc: "Fresh watermelon juice." },
     { id: "juice-apple", cat: "drinks", name: "Apple Juice", ar: "تفاح", price: 15, img: I("juice-apple"), desc: "Fresh apple juice." },
     { id: "juice-lemon-mint", cat: "drinks", name: "Lemon Mint", ar: "ليمون نعناع", price: 15, img: I("juice-lemon-mint"), desc: "Fresh lemon juice with mint." },

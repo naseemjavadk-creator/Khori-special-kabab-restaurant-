@@ -183,8 +183,8 @@
     { id: "spinach-yogurt", cat: "starters", name: "Spinach Yogurt", ar: "زبادي السبانخ", price: 15, img: I("spinach-yogurt"), desc: "Yogurt with cooked spinach (borani)." },
     { id: "mast-moosir", cat: "starters", name: "Mast Moosir", ar: "ماست موسير", price: 5, img: I("mast-moosir"), desc: "Yogurt with wild shallot and herbs." },
     { id: "kask-bademjan", cat: "starters", name: "Kask Bademjan", ar: "كشك باذنجان", price: 25, img: I("kask-bademjan"), desc: "Eggplant topped with kashk, fried onion and mint oil." },
-    { id: "omelette", cat: "starters", name: "Omelette", ar: "شكشوكة", price: 30, img: I("omelette"), desc: "Eggs cooked with tomato, served with cucumber and tomato." },
-    { id: "cheese-plate", cat: "starters", name: "Cheese + Tomato + Cucumber", ar: "جبنة + خيار + طماطم", price: 20, img: I("cheese-plate"), desc: "White cheese with fresh tomato, cucumber and herbs." },
+    { id: "omelette", cat: "starters", name: "Omelette", ar: "شكشوكة", price: 39, img: I("omelette"), desc: "Eggs cooked with tomato, served with cucumber and tomato." },
+    { id: "cheese-plate", cat: "starters", name: "Cheese + Tomato + Cucumber", ar: "جبنة + خيار + طماطم", price: 29, img: I("cheese-plate"), desc: "White cheese with fresh tomato, cucumber and herbs." },
 
     /* ------------------------------ SALADS ------------------------------ */
     { id: "indonesian-salad", cat: "salads", name: "Indonesian Salad", ar: "سلطة اندونيسية", price: 19, img: I("indonesian-salad"), desc: "Red cabbage, lettuce, corn, carrot and radish." },

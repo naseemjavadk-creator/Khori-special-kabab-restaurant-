@@ -226,6 +226,7 @@
     { id: "juice-mango", cat: "drinks", name: "Mango Juice", ar: "مانجو", price: 15, img: I("juice-mango"), desc: "Fresh mango juice." },
     { id: "juice-strawberry", cat: "drinks", name: "Strawberry Juice", ar: "فراولة", price: 15, img: I("juice-strawberry"), desc: "Fresh strawberry juice." },
     { id: "juice-carrot", cat: "drinks", name: "Carrot Juice", ar: "جزر", price: 15, img: I("juice-carrot"), desc: "Fresh carrot juice." },
+    { id: "juice-pomegranate", cat: "drinks", name: "Pomegranate Juice", ar: "عصير الرمان", price: 20, img: I("juice-pomegranate"), desc: "Fresh pomegranate juice." },
 
     /* ------------------------- RAW MEAT (PER KG) ------------------------- */
     { id: "raw-minced-meat", cat: "raw", name: "Minced Meat Raw (1 kg)", ar: "كيلو كباب مفروم لحم نيء", price: 165, img: I("raw-minced-meat"), tag: "Per kg", desc: "Marinated minced meat for kabab, sold raw by the kilo." },

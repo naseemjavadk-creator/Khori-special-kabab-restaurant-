@@ -204,7 +204,13 @@
     { id: "lentil-soup", cat: "sides", name: "Lentil Soup", ar: "شوربة العدس", price: 10, img: I("lentil-soup"), desc: "Warm lentil soup served with lemon." },
     { id: "aash", cat: "sides", name: "Aash", ar: "آش", price: 19, img: I("aash"), desc: "Thick Persian noodle and herb soup with kashk and fried onion." },
 
-    /* ------------------------- DRINKS & DESSERT ------------------------- */
+    /* ------------------------------ SWEETS ------------------------------ */
+    { id: "sweet-oreo", cat: "sweets", name: "Oreo", ar: "أوريو", price: 18, img: I("sweet-oreo"), desc: "Layered chilled dessert topped with whole Oreo cookies and cream." },
+    { id: "sweet-chocolate", cat: "sweets", name: "Chocolate", ar: "شوكولاته", price: 18, img: I("sweet-chocolate"), desc: "A classic chocolate indulgence." },
+    { id: "sweet-nutella", cat: "sweets", name: "Nutella", ar: "نوتيلا", price: 18, img: I("sweet-nutella"), desc: "Decadent dessert tub layered with genuine Nutella hazelnut cream and cocoa." },
+    { id: "sweet-raffaello", cat: "sweets", name: "Raffaello", ar: "رافيلو", price: 18, img: I("sweet-raffaello"), desc: "Delicate white coconut cream dessert inspired by Raffaello." },
+
+    /* ------------------------------ DRINKS ------------------------------ */
     /* Each drink is its own item. Photos are all the same shape (800 x 500). */
     { id: "drink-limonade", cat: "drinks", name: "Limonade", price: 7, img: I("drink-limonade"), desc: "Chilled lemon soft drink." },
     { id: "drink-laban", cat: "drinks", name: "Laban Qamarzada", price: 6, img: I("drink-laban"), desc: "Chilled laban (yogurt drink)." },

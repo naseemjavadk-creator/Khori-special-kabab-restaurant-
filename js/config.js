@@ -54,7 +54,8 @@ window.RESTAURANT = {
     { id: "starters",   name: "Starters & Dips",        ar: "مقبلات" },
     { id: "salads",     name: "Salads",                 ar: "سلطات" },
     { id: "sides",      name: "Soups & Sides",          ar: "شوربة وجانبية" },
-    { id: "drinks",     name: "Drinks & Dessert",       ar: "مشروبات" },
+    { id: "sweets",     name: "Sweets",                 ar: "حلويات" },
+    { id: "drinks",     name: "Drinks",                 ar: "مشروبات" },
     { id: "raw",        name: "Raw Meat (per kg)",      ar: "لحوم نية بالكيلو" }
   ],
 

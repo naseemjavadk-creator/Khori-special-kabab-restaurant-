@@ -209,6 +209,12 @@
     { id: "sweet-chocolate", cat: "sweets", name: "Chocolate", ar: "شوكولاته", price: 18, img: I("sweet-chocolate"), desc: "A classic chocolate indulgence." },
     { id: "sweet-nutella", cat: "sweets", name: "Nutella", ar: "نوتيلا", price: 18, img: I("sweet-nutella"), desc: "Decadent dessert tub layered with genuine Nutella hazelnut cream and cocoa." },
     { id: "sweet-raffaello", cat: "sweets", name: "Raffaello", ar: "رافيلو", price: 18, img: I("sweet-raffaello"), desc: "Delicate white coconut cream dessert inspired by Raffaello." },
+    { id: "sweet-lotus", cat: "sweets", name: "Lotus", ar: "كيكة اللوتس", price: 18, img: I("sweet-lotus"), desc: "Creamy chilled dessert tub layered with rich Lotus Biscoff spread and biscuit crumb." },
+    { id: "sweet-sanfer", cat: "sweets", name: "Sanfer Sweet", ar: "كيكة السنافر", price: 18, img: I("sweet-sanfer"), desc: "Smooth and creamy delight." },
+    { id: "sweet-saffron", cat: "sweets", name: "Saffron Sweet", ar: "حلى الزعفران", price: 18, img: I("sweet-saffron"), desc: "Rich and aromatic saffron delight." },
+    { id: "sweet-pistachio", cat: "sweets", name: "Pistachio", ar: "فستق", price: 18, img: I("sweet-pistachio"), desc: "Rich and creamy chilled dessert tub infused with premium pistachio cream." },
+    { id: "sweet-kheshkhash", cat: "sweets", name: "Kheshkhash Sweet", ar: "حلى الخشخش", price: 18, img: I("sweet-kheshkhash"), desc: "Layered chilled dessert tub topped with crispy golden toasted vermicelli." },
+    { id: "sweet-latte", cat: "sweets", name: "Latte Sweet", ar: "حلى اللاتيه", price: 18, img: I("sweet-latte"), desc: "Smooth and decadent coffee latte dessert layered with cocoa." },
 
     /* ------------------------------ DRINKS ------------------------------ */
     /* Each drink is its own item. Photos are all the same shape (800 x 500). */
